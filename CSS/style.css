@@ -1,0 +1,123 @@
+.main-container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.background-mario{
+    width: 100%;
+    height: 1250px;
+
+}
+
+
+.character{
+    height: 100px;
+}
+.character-box {
+    position: absolute;
+    top: 984px;
+    left: 200px;
+    transform: translateX(20px);
+    animation: runforward 10s linear 1s infinite;
+  }
+
+@keyframes runforward {
+    0% {
+      top: 984px;
+      left: 200px;
+    }
+    30% {
+      top: 984px;
+      left: 1450px;
+    }
+    40% {
+      top: 850px;
+      left: 1600px;
+    }
+    50% {
+      top: 984px;
+      left: 1700px;
+    }
+    60%{
+        top: 984px;
+        left: 1800px;
+    }
+    70%{
+        top: 850px;
+        left: 2000px;
+            }
+    80% {
+      top: 984px;
+      left: 2300px;
+    }
+    100%{
+    left: 2600px;
+    }
+  }
+
+  .div-2 {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    animation: birdsfly 10s linear infinite;
+   } 
+  
+.bird-image{
+    width: 900px;
+        }
+
+      @keyframes birdsfly {
+        0% {
+          transform: translate(0px, 0px);
+        }
+        50% {
+          transform: translate(1000px, 200px);
+        }
+        100% {
+          transform: translate(2000px, 0);
+        }
+      }
+      .bird-image {
+        height: 500px;
+      }
+      .goomba-imagebox{
+        width: 80px;
+      }
+      .div-3{
+        position: absolute;
+        /* top: 984px;
+        right: 10px; */
+        top: 654px;
+        right: 150px;
+        animation: goomba-run 25s linear infinite 1s;
+      }
+
+      @keyframes goomba-run {
+        0%{
+          top: 654px;
+          right: 150px;
+        }
+        20%{
+          top: 654px;
+          right: 500px;
+         } 
+         25%{
+          top: 654px;
+          right:650px
+
+         }
+         30%{
+          top: 984px;
+          right:650px
+         }
+         50%{
+          top: 984px;
+          right:1250px
+         }
+         100%{
+          top: 984px;
+          right:2600px
+         }
+         
+      }
