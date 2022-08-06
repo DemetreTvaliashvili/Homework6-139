@@ -61,28 +61,12 @@
     }
   }
 
-  /* .div-2 {
-    position: absolute;
-    top: 100px;
-    left: 100px;
-    animation: birdsfly 10s linear infinite;
-   } 
-   */
+ 
 .bird-image{
     width: 900px;
         }
 
-      /* @keyframes birdsfly {
-        0% {
-          transform: translate(0px, 0px);
-        }
-        50% {
-          transform: translate(1000px, 200px);
-        }
-        100% {
-          transform: translate(2000px, 0);
-        }
-      } */
+      
       .bird-image {
         height: 500px;
       }
@@ -91,8 +75,7 @@
       }
       .div-3{
         position: absolute;
-        /* top: 984px;
-        right: 10px; */
+        
         top: 0px;
         right: 150px;
         animation: goomba-run 25s linear 0s infinite;
@@ -125,24 +108,12 @@
           right:9000px
          }
          
-         /* 50%{
-          top: 984px;
-          right:1250px
-         }
-         100%{
-          top: 984px;
-          right:2600px
-         } */
-         
+                 
       }
     
     .div-4{
       position: absolute;
-      /* width: 400px;
-      top: 350px;
-      left: 10px;
-      animation: koopafly 10s linear 1s infinite; */
-      top: 100px;
+            top: 100px;
       left: 100px;
       animation: koopafly 20s linear infinite backwards;
       
@@ -155,14 +126,14 @@
 
     @keyframes koopafly {
       0% {
-        transform: translate(200px, 100px);
+        transform: translate(50px, 100px);
       }
 
       50% {
-        transform: translate(300px, 150px);
+        transform: translate(250px, 150px);
       }
       100% {
-        transform: translate(800px, 200);
+        transform: translate(1200px, 250);
       }
     }
     
